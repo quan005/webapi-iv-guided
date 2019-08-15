@@ -4,7 +4,7 @@ const server = require('./api/server.js');
 
 const port = process.env.PORT || 4000;
 
-server.listen(4000, () => {
+server.listen(port, () => {
   console.log(`\n*** Server Running on Port ${port} ***\n`);
 });
 
@@ -16,3 +16,4 @@ server.listen(4000, () => {
 // which port (because it might be taken).
 
 // adding extra notes sucks sometimes
+// fixed my bugs ``''``''``''``''
